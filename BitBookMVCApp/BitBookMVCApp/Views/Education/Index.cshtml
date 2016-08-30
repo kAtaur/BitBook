@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BitBookMVCApp.Models.Education>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EduTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EduInstitute)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EduYear)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EduTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EduInstitute)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EduYear)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EducationId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EducationId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EducationId })
+        </td>
+    </tr>
+}
+
+</table>

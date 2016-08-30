@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNet.Identity
+@model BitBookMVCApp.Models.Education
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+    string email = User.Identity.GetUserName();
+    string name = ViewBag.name; 
+}
+<br/>
+<h3>Edit Education Information</h3>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.EducationId)
+
+        <div class="form-group">
+           
+            <div class="col-md-10">
+                @Html.HiddenFor(model => model.UserId)
+                @Html.ValidationMessageFor(model => model.UserId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Title", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EduTitle, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.EduTitle)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Institute", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EduInstitute, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.EduInstitute)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Passing Year", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EduYear, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.EduYear)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to Profile", "Index", "Profile")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

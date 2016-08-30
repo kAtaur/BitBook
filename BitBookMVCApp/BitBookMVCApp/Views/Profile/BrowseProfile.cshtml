@@ -1,0 +1,95 @@
+﻿@using BitBookMVCApp.Models
+@model dynamic
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+<fieldset>
+    <legend>Basic Information </legend>
+
+    <table class="table table-bordered" style="width: 750px">
+        @foreach (Profile p in Model.Profile)
+        {
+            <tr>
+                <th>Name </th>
+                <td>@p.Name</td>
+            </tr>
+            <tr>
+                <th>Email </th>
+                <td>@p.Email</td>
+            </tr>
+            <tr>
+                <th>Contact </th>
+                <td>@p.Contact</td>
+            </tr>
+            <tr>
+                <th>Gender </th>
+                <td>@p.Gender</td>
+            </tr>
+            <tr>
+                <th>City </th>
+                <td>@p.City</td>
+            </tr>
+            <tr>
+                <th>Country </th>
+                <td>@p.Country</td>
+            </tr>
+
+            <tr>
+                <th>AreaOfInterest</th>
+                <td>@p.AreaOfInterest</td>
+            </tr>
+        }
+    </table>
+
+</fieldset>
+
+<fieldset>
+    <legend>Education :  </legend>
+    
+    <table class="table" style="width: 750px">
+        <tr>
+            <th>Title </th>
+            <th>Institute </th>
+            <th>Passing Year </th>
+            <th></th>
+            <th></th>
+
+        </tr>
+        @foreach (Education e in Model.Education)
+        {
+
+            <tr>
+                <td>@e.EduTitle</td>
+                <td>@e.EduInstitute</td>
+                <td>@e.EduYear</td>
+            </tr>
+        }
+    </table>
+</fieldset>
+
+
+<fieldset>
+    <legend>Experience  </legend>
+
+    <table class="table" style="width: 750px">
+        <tr>
+            <th>Title </th>
+            <th>Institute </th>
+            <th>Passing Year </th>
+            <th></th>
+            <th></th>
+
+        </tr>
+        @foreach (Experience ex in Model.Experience)
+        {
+
+            <tr>
+                <td>@ex.ExpDesignation</td>
+                <td>@ex.ExpCompany</td>
+                <td>@ex.ExpYear</td>
+            </tr>
+        }
+    </table>
+</fieldset>

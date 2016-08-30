@@ -1,0 +1,50 @@
+﻿@model BitBookMVCApp.Models.ContentNotification
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ContentNotification</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FriendId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FriendId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RequestDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RequestDateTime)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ContentNotificationId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

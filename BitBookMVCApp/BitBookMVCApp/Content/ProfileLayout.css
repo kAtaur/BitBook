@@ -1,0 +1,154 @@
+﻿body {
+}
+
+.headNavBar {
+    width: 99%;
+    margin:8px 5px 0px 0px;
+    padding: 2px;
+}
+
+.logoName {
+    height: 50px;
+    width: 5%;
+    float: left;
+    margin-left:70px;
+}
+
+.profile a {
+    color: white;
+}
+
+.searchBox {
+    margin-left:20px;
+    height: 50px;
+    width: 25%;
+    float: left;
+}
+
+.profileNotification {
+    height: 50px;
+    width: 25%;
+    float: left;
+}
+
+                .profile {
+                    height: 50px;
+                    width: 50%;
+                    float: left; 
+                }
+                
+                .notification {
+                    height: 50px;
+                    float: left;
+                }
+
+                 .friendRequest {
+                    height: 30px;
+                    float: left;
+                }
+                
+
+.logOff {
+    height: 50px;
+    width: 25%;
+    float: left;
+    margin-top: -10px;
+    margin-left: -30px; 
+}
+
+
+div.Cover {
+     width: 851px;
+     height: 365px;
+     border: 1px solid;
+     position: relative;
+     margin-top: 1px; 
+
+}
+
+.coverPhoto {
+     width: 851px;
+     height: 315px;
+     border-bottom: 1px solid;
+     position: absolute;
+     left: 0;
+     
+}
+
+
+
+div.profilePicture {
+    width: 181px;
+    height: 180px;
+    border: 1px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+
+/*.profilePhotoFile {
+    position: fixed;
+    margin-top: 0px !important;
+    margin-left: 650px !important;
+    opacity: 0.5;
+    background-color:transparent;
+}*/
+
+.menuBar {
+    width: 70%;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+}
+.timeLine {
+    width: 20%;
+    float: left;
+}
+.about {
+    width: 20%;
+    float: left;
+}
+.friend {
+    width: 20%;
+    float: left;
+}
+
+.profileBody {
+    
+}
+.profileleftside {
+   
+}
+
+.renderBody {
+    margin-left: 100px;
+    border-right: 1px solid #e0e0eb;
+    border-left: 1px solid #e0e0eb;
+    width: 750px;
+    clear: both;
+   
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+
+
+#imaginary_container{
+    /*margin-top:20%;*/
+    margin-top: -3px; 
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}

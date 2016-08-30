@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNet.Identity
+@model BitBookMVCApp.Models.Experience
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+    string email = User.Identity.GetUserName();
+    string name = ViewBag.name; 
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Experience</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+           
+        </dt>
+
+        <dd>
+            @Html.HiddenFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpDesignation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpCompany)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpCompany)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpYear)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to Profile", "Index", "Profile")
+        </div>
+    }
+</div>

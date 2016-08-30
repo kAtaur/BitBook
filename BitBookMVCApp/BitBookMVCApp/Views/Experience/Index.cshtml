@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNet.Identity
+@model IEnumerable<BitBookMVCApp.Models.Experience>
+
+@{
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+    string email = User.Identity.GetUserName();
+    string name = ViewBag.name; 
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpDesignation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpCompany)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpYear)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpDesignation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpCompany)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpYear)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ExperienceId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ExperienceId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ExperienceId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,75 @@
+﻿@model BitBookMVCApp.Models.Post
+
+@{
+    ViewBag.Title = "Edit";
+    
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Post</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.PostId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserId, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserId)
+                @Html.ValidationMessageFor(model => model.UserId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserName)
+                @Html.ValidationMessageFor(model => model.UserName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TextPost, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TextPost)
+                @Html.ValidationMessageFor(model => model.TextPost)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImgPost, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ImgPost)
+                @Html.ValidationMessageFor(model => model.ImgPost)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PostDate, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PostDate)
+                @Html.ValidationMessageFor(model => model.PostDate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

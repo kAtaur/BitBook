@@ -1,0 +1,118 @@
+﻿body {
+}
+
+.headNavBar {
+    width: 99%;
+    margin:8px 5px 0px 0px;
+    padding: 2px;
+}
+
+.logoName {
+    height: 50px;
+    width: 5%;
+    float: left;
+    margin-left:70px;
+}
+
+.profile a {
+    color: white;
+}
+
+.searchBox {
+    margin-left:20px;
+    height: 50px;
+    width: 25%;
+    float: left;
+}
+
+.profileNotification {
+    height: 50px;
+    width: 25%;
+    float: left;
+}
+
+                .profile {
+                    height: 50px;
+                    width: 50%;
+                    float: left; 
+                }
+
+                .friendRequest {
+                    height: 30px;
+                    float: left;
+                }
+
+                .notification {
+                    height: 50px;
+                    float: left;
+                }
+                
+
+.logOff {
+    height: 50px;
+    width: 25%;
+    float: left;
+    margin-top: -10px;
+    margin-left: -30px; 
+    
+}
+
+
+
+
+.fullBody {
+    width: 100%;
+}
+
+.leftSide {
+    width: 15%;
+    height: 100%;
+    padding: 10px;
+    float: left;
+   
+    
+    
+}
+
+.middleSide {
+    width: 77%;
+    height: 90%;
+    padding: 5px;
+    float: left;
+    border-left: 1px solid #e0e0eb;
+    border-right: 1px solid #e0e0eb;
+}
+
+.rightSide {
+    width: 5%;
+    height: 90%;
+    padding: 5px;
+    float: left;
+    text-align: center;
+   
+}
+
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+
+
+#imaginary_container{
+    /*margin-top:20%;*/
+    margin-top: -3px; 
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}

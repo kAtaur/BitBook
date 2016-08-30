@@ -1,0 +1,157 @@
+﻿@using BitBookMVCApp.Models
+@using Microsoft.AspNet.Identity
+@model dynamic
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Bitbook</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    <link href="@Url.Content("~/Content/HomeLayout.css")" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            @*$('#searchFriend').autocomplete({
+                source: '@Url.Action("GetMP","Profile")'
+            });*@
+
+        })
+    </script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #3F5C9A; color: white;height: 50px">
+        <div class="headNavBar">
+            <div class="logoName">
+                <label class=""><b>Bitbook</b></label>
+            </div>
+
+            <div class="searchBox">
+                @using (@Html.BeginForm("SearchFreind", "Profile"))
+                {
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-offset-0">
+                                <div id="imaginary_container">
+                                    <div class="input-group stylish-input-group">
+                                        <input type="text" id="searchFriend" name="searchFriend" placeholder="Search friend...." class="form-control">
+                                        <span class="input-group-addon">
+                                            <button type="submit" value="Search">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <div class="profileNotification">
+                <div class="profile">
+
+                    <a href="/profile/index">Profile</a>
+
+                    &nbsp; | &nbsp;
+
+                    <a href="/post/index">Home</a>
+
+                </div>
+                <div class="notification">
+                    <label>
+                        <a href="/profile/ViewFriendRequest">
+                            <img id="friendRequest" class="friendRequest" src="~/Images/FriendRequest.jpg" style="width: 30px; height: 30px; margin-top: -20px;" /> &nbsp;&nbsp;
+
+                        </a>
+                    </label>
+
+                    <label style="color: #ff0000">@if (@ViewBag.RequestCount != 0)
+                    {@ViewBag.RequestCount}</label>
+
+                    <label>
+                        <a href="/profile/Notification">
+                            <img id="notification" class="friendRequest" src="~/Images/NotificationLogo.jpg" style="width:30px ; height: 30px; " />
+                        </a>
+                    </label>
+
+                    <label style="color: #ff0000">
+                        @if (@ViewBag.NotificationCount != 0)
+                        {
+                            @ViewBag.NotificationCount
+                        }
+                </label>
+
+            </div>
+        </div>
+        <div class="logOff">
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <div class="fullBody">
+
+        <div class="leftSide" bgcolor="#e9ebee">
+            <br />
+
+            <br />
+            @*<table>
+                    <tr><td></td><td>@Html.ActionLink("About Me", "Index", "Profile", new {@class="form-control"}, null)</td>
+                    </tr>
+                </table>*@
+
+
+        </div>
+
+        <div class="middleSide">
+
+            @RenderBody()
+
+        </div>
+
+        <div class="rightSide">
+            <br />
+            @*Suggested friends*@
+        </div>
+
+        @*<div class="footer">
+                <hr />
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - Developed by <b>Simple Coders</b></p>
+                </footer>
+            </div>*@
+
+    </div>
+    <div class="footer">
+        <hr />
+        <footer style="text-align: center; clear: both; ">
+            <p>
+                &copy; @DateTime.Now.Year - Developed by <b>Simple Coders</b>
+            </p>
+        </footer>
+    </div>
+
+
+</div>
+
+
+@RenderSection("scripts", required: false)
+</body>
+</html>

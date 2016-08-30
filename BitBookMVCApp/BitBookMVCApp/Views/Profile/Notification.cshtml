@@ -1,0 +1,24 @@
+﻿@using BitBookMVCApp.Models
+@model dynamic
+
+@{
+    ViewBag.Title = "Notification";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<h2>Notification</h2>
+
+
+
+@foreach (ContentNotification item in Model.Notification)
+{
+    <table>
+        <tr>
+
+            <td>@Html.ActionLink(@item.Notification, "Details", "Post", new { id = item.PostId }, null)</td>
+
+        </tr>
+    </table>
+    <br />
+}
+

@@ -1,0 +1,295 @@
+﻿@using BitBookMVCApp.Models
+@using Microsoft.AspNet.Identity
+@model dynamic
+
+@{
+    List<CoverPhoto> coverPhoto = ViewBag.coverPhoto;
+    List<ProfilePhoto> profilePhoto = ViewBag.profilePhoto;
+
+    string browseId = ViewBag.browseId;
+    string currentUserId = User.Identity.GetUserId();
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Bitbook</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    <link href="@Url.Content("~/Content/ProfileLayout.css")" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            @*$('#searchFriend').autocomplete({
+                source: '@Url.Action("GetMP","Profile")'
+            });*@
+
+        })
+    </script>
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #3F5C9A; color: white;height: 50px">
+        <div class="headNavBar">
+            <div class="logoName">
+                <label class=""><b>Bitbook</b></label>
+            </div>
+
+            <div class="searchBox">
+                @using (@Html.BeginForm("SearchFreind", "Profile"))
+                {
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-offset-0">
+                                <div id="imaginary_container">
+                                    <div class="input-group stylish-input-group">
+                                        <input type="text" id="searchFriend" name="searchFriend" placeholder="Search friend...." class="form-control">
+                                        <span class="input-group-addon">
+                                            <button type="submit" value="Search">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <div class="profileNotification">
+                <div class="profile">
+
+                    <a href="/profile/index">Profile</a>
+
+
+                    &nbsp; | &nbsp;
+
+                    <a href="/post/index">Home</a>
+
+
+                </div>
+                <div class="notification">
+                    <label>
+                        <a href="/profile/ViewFriendRequest">
+                            <img id="friendRequest" class="friendRequest" src="~/Images/FriendRequest.jpg" style="width: 30px; height: 30px; margin-top: -20px;" /> &nbsp;&nbsp;
+
+                        </a>
+                    </label>
+
+                    <label style="color: #ff0000">
+                        @if (@ViewBag.RequestCount != 0)
+                        {@ViewBag.RequestCount}
+                    </label>
+
+                    <label>
+                        <a href="/profile/Notification">
+                            <img id="notification" class="friendRequest" src="~/Images/NotificationLogo.jpg" style="width:30px ; height: 30px; " />
+                        </a>
+                    </label>
+
+                    <label style="color: #ff0000">
+                        @if (@ViewBag.NotificationCount != 0)
+                        {
+                            @ViewBag.NotificationCount
+                        }
+                </label>
+
+            </div>
+        </div>
+
+
+        <div class="logOff">
+            @Html.Partial("_LoginPartial")
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container body-content">
+
+    <div class="Cover">
+        <div class="coverPhoto">
+
+            @if (browseId == currentUserId)
+            {
+                <div>
+                    @using (Html.BeginForm("Edit", "CoverPhoto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="file" name="file" id="file" accept="image/*" style="position: absolute; margin-top: 5px; opacity: 0.4; " />
+                        <input type="submit" value="Upload" class="btn btn-primary" style="position: absolute; margin-top: 28px; color: greenyellow; background: transparent; " />
+
+                    }
+                </div>
+            }
+            @if (browseId == null)
+            {
+                <div>
+                    @using (Html.BeginForm("Edit", "CoverPhoto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="file" name="file" id="file" accept="image/*" style="position: absolute; margin-top: 5px; opacity: 0.4; " />
+                        <input type="submit" value="Upload" class="btn btn-primary" style="position: absolute; margin-top: 28px; color: greenyellow; background: transparent; " />
+
+                    }
+                </div>
+            }
+
+            @if (coverPhoto != null)
+            {
+                foreach (var item in coverPhoto)
+                {
+                    <img src="@Url.Content(item.CoverImage)" alt="" style="height: 314px; width: 850px" />
+                }
+            }
+
+            @if (coverPhoto == null)
+            {
+                <div>
+
+                </div>
+
+            }
+
+            @if (browseId != currentUserId && browseId != null)
+            {
+
+            }
+
+        </div>
+        <div class="profilePicture">
+
+            @if (browseId == currentUserId)
+            {<div>
+                @using (Html.BeginForm("Edit", "ProfilePhoto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="file" name="file" id="file" accept="image/*" style="position: absolute;   background: transparent; border: none !important; opacity: 0.5; margin-right: 0px; margin-bottom: 10px" />
+                    <input type="submit" value="Upload" class="btn btn-primary" style="color: greenyellow;position: absolute;   background: transparent; margin-top: 140px; margin-left: 2px;" />
+                }
+            </div>
+            }
+            @if (browseId == null)
+            {<div>
+                @using (Html.BeginForm("Edit", "ProfilePhoto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="file" name="file" id="file" accept="image/*" style="position: absolute;   background: transparent; border: none !important; opacity: 0.5; margin-right: 0px; margin-bottom: 10px" />
+                    <input type="submit" value="Upload" class="btn btn-primary" style="color: greenyellow;position: absolute;   background: transparent; margin-top: 140px; margin-left: 2px;" />
+                }
+            </div>
+            }
+            @if (browseId != currentUserId && browseId != null)
+            {
+
+            }
+
+            @if (profilePhoto != null)
+            {
+                foreach (var item in profilePhoto)
+                {
+                    <img src="@Url.Content(item.ProfileImage)" alt="" style="height:179px ; width:180px " />
+                }
+            }
+
+
+            @if (profilePhoto == null)
+            {
+                <div>
+
+                </div>
+            }
+
+        </div>
+
+        <div class="menuBar">
+            <div class="timeLine">
+                @if (browseId == currentUserId)
+                {
+                    <a id="aboutId" href="/Profile/timeline"><b>Timeline</b></a>
+                }
+                @if (browseId == null)
+                {
+                    <a id="aboutId" href="/Profile/timeline"><b>Timeline</b></a>
+                }
+                @if (browseId != currentUserId && browseId != null)
+                {
+                    @*@Html.ActionLink("Timeline", "BrowseTimeline", "Profile", new { id = browseId }, null)*@
+                }
+            </div>
+            <div class="about">
+                @if (browseId == currentUserId)
+                {
+                    <a id="aboutId" href="/Profile/index"><b>About</b></a>
+                }
+                @if (browseId == null)
+                {
+                    <a id="aboutId" href="/Profile/index"><b>About</b></a>
+                }
+                @if (browseId != currentUserId && browseId != null)
+                {
+                    @Html.ActionLink("About", "BrowseProfile", "Profile", new { id = browseId }, null)
+                }
+            </div>
+            <div class="friend">
+
+                @if (browseId == currentUserId)
+                {
+                    <a href="/Profile/ViewFriendList"><b>Friend</b></a>
+                }
+                @if (browseId == null)
+                {
+                    <a href="/Profile/ViewFriendList"><b>Friend</b></a>
+                }
+                @if (browseId != currentUserId && browseId != null)
+                {
+                    @Html.ActionLink("Friend", "BrowseFriendList", "Profile", new { id = browseId }, null)
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="profileBody">
+        <div class="profileleftside">
+
+        </div>
+        <div class="renderBody">
+            @RenderBody()
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <hr />
+        <footer>
+            <p>
+                &copy; @DateTime.Now.Year - Developed by <b>Simple Coders</b>
+            </p>
+        </footer>
+    </div>
+</div>
+
+
+
+@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNet.Identity
+@model BitBookMVCApp.Models.Experience
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+    string email = User.Identity.GetUserName();
+    string name = ViewBag.name; 
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Experience</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+           
+        </dt>
+
+        <dd>
+           
+        </dd>
+
+        <dt>
+            @Html.Label("Designation")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpDesignation)
+        </dd>
+
+        <dt>
+            @Html.Label("Organaization")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpCompany)
+        </dd>
+
+        <dt>
+            @Html.Label("Experience")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpYear)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ExperienceId }) |
+    @Html.ActionLink("Back to Profile", "Index", "Profile")
+</p>

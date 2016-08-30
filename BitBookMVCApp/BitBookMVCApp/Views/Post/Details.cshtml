@@ -1,0 +1,140 @@
+﻿@using BitBookMVCApp.Models
+@model dynamic
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@if (ViewBag.Message != null)
+{   <br />
+    <label>@ViewBag.Message</label>
+    <br/>
+    <br />
+}
+
+@if (ViewBag.Message == null)
+{
+    foreach (Post p in Model.Post)
+    {
+        foreach (PostLikeComment item in Model.PostWithLike)
+        {
+
+            if (p.PostId == item.PostId)
+            {
+                <table>
+
+                    <tr>
+                        <th>
+
+                        </th>
+                        <th>
+                            @if (p.PostId == item.PostId)
+                            {
+                                @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new { id = item.UserId }, null)
+                            }
+                        </th>
+                        <th style="font-weight: normal">
+                            &nbsp;&nbsp;
+                            @if (p.PostId == item.PostId)
+                            {
+                                @Html.DisplayFor(modelItem => item.PostDate)
+                            }
+                        </th>
+                        <th>
+                        </th>
+                        <th>
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+
+                        <td>
+                            @if (p.PostId == item.PostId)
+                            {
+                                @Html.DisplayFor(modelItem => item.TextPost)
+                            }
+
+                            <br />
+                            @if (p.PostId == item.PostId)
+                            {
+                                if (item.ImgPost != null)
+                                {
+                                    <img src="@Url.Content(item.ImgPost)" alt="" style="height: 250px; width: 300px" />
+                                }
+                            }
+
+                        <td></td>
+
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            @if (p.PostId == item.PostId)
+                            {
+                                if (item.LikeStatus == 1)
+                                {
+                                    <button data-id="@item.PostId" type="button" class="likeButton" style="background-color: #00bfff; cursor: pointer; overflow: hidden;" value="">Liked</button>
+                                    <a href="/Like/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@item.TotalLikeCount</label></a>
+                                }
+
+                                if (item.LikeStatus != 1)
+                                {
+                                    <input type="button" data-id="@item.PostId" class="likeButton" style="background-color: #00bfff" value=" like" />
+                                    <a href="/Like/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@item.TotalLikeCount</label></a>
+                                }
+                            }
+
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+
+                        <td style="background-color: #F5F5F5">
+                            @if (p.PostId == item.PostId)
+                            {
+                                foreach (ViewPostComment item1 in Model.PostWithComment)
+                                {
+                                    if (@item1.PostId == @item.PostId)
+                                    {
+                                        foreach (var v in item1.Ucomment)
+                                        {
+                                            @Html.ActionLink(v.UserName, "BrowseProfile", "Profile", new { id = v.CommentatorId }, null)
+                                            <label style="font-weight: normal">&nbsp;@v.Comment</label>
+                                            <br />
+                                        }
+                                    }
+                                }
+                            }
+
+                        </td>
+
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+
+                    <tr>
+                        <td><hr /></td>
+                    </tr>
+                </table>
+            }
+        }
+    }
+}
+
+<p>
+    @Html.ActionLink("Back to NotificationList", "Notification", "Profile")
+</p>
+
+

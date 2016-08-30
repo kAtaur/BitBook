@@ -1,0 +1,190 @@
+﻿@using BitBookMVCApp.Models
+@using Microsoft.AspNet.Identity
+@model dynamic
+
+@{
+    ViewBag.Title = "Search Friend";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+    string CurrentId = User.Identity.GetUserId();
+
+    List<SearchFriend> AllUserFList = Model.AllUser;
+
+    List<SearchFriend> PendingfList = Model.PendingFriendList;
+    List<SearchFriend> AddedfList = Model.AddedfriendList;
+}
+
+
+<br />
+
+@if (AllUserFList.Count == 0 && PendingfList.Count == 0 && AddedfList.Count == 0)
+{
+    <p>No friends found.</p>
+    <br />
+    <br />
+}
+
+
+@foreach (SearchFriend item in Model.AllUser)
+{
+    <table>
+
+        <tr>
+            <td>
+                @if (@item.ProfilePhoto != null && item.UserId != CurrentId)
+                {
+                    <img src="@Url.Content(@item.ProfilePhoto)" alt="" style="height: 180px; width: 180px; border: 1px solid" />
+                }
+
+                @if (@item.ProfilePhoto == null && item.UserId != CurrentId)
+                {
+                    <div style="border-style: ridge; width: 180px; height: 180px;">
+                        <img src="~/Images/BITBOOK_DEFAULT_PIC.png" style="height: 178px;width: 178px" />
+                    </div>
+                }
+
+            </td>
+            <td>
+                &nbsp; &nbsp;
+                @if (item.UserId != CurrentId)
+                {
+                    if (item.UserName != null)
+                    {
+                        @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new { id = item.UserId }, null)
+                        <br />
+                        <br />
+                    }
+                    if (item.UserName == null && item.UserId != CurrentId)
+                    {
+                        @Html.ActionLink(User.Identity.GetUserName(), "BrowseProfile", "profile", new { id = item.UserId }, null)
+                        <br />
+                        <br />
+                    }
+                }
+
+                @if (item.UserId != CurrentId)
+                {
+                    <div style="margin-left: 10px;">
+                        @using (@Html.BeginForm("Create", "Friend"))
+                        {
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" id="FriendId" name="FriendId" value="@item.UserId" />
+                            <input type="submit" class="btn btn-primary" value="Add Friend" />
+                        }
+                    </div>
+                }
+
+
+            </td>
+
+        </tr>
+    </table>
+
+    <br />
+}
+
+@foreach (SearchFriend item in Model.PendingFriendList)
+{
+    <table>
+
+        <tr>
+            <td>
+                @if (@item.ProfilePhoto != null)
+                {
+                    <img src="@Url.Content(@item.ProfilePhoto)" alt="" style="height: 180px; width: 180px; border: 1px solid" />
+                }
+
+                @if (@item.ProfilePhoto == null)
+                {
+                    <div style="border-style: ridge; width: 180px; height: 180px;">
+
+                        <img src="~/Images/BITBOOK_DEFAULT_PIC.png" style="height: 178px;width: 178px" />
+                    </div>
+                }
+
+            </td>
+            <td>
+                &nbsp; &nbsp;
+                @if (item.UserName != null)
+                {
+                    @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new { id = item.UserId }, null)
+                    <br />
+                    <br />
+                }
+                @if (item.UserName == null && item.UserId != CurrentId)
+                {
+                    @Html.ActionLink(User.Identity.GetUserName(), "BrowseProfile", "profile", new { id = item.UserId }, null)
+                    <br />
+                    <br />
+                }
+
+
+                <div style="margin-left: 10px; ">
+                    @using (@Html.BeginForm("Create", "Friend"))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="FriendId" name="FriendId" value="@item.UserId" />
+                        <input type="button" class="btn btn-warning" value="Request Pending" readonly="readonly" />
+                    }
+                </div>
+            </td>
+
+        </tr>
+    </table>
+
+    <br />
+
+}
+
+@foreach (SearchFriend item in Model.AddedfriendList)
+{
+    <table>
+
+        <tr>
+            <td>
+                @if (@item.ProfilePhoto != null)
+                {
+                    <img src="@Url.Content(@item.ProfilePhoto)" alt="" style="height: 180px; width: 180px; border: 1px solid" />
+                }
+
+                @if (@item.ProfilePhoto == null)
+                {
+                    <div style="border-style: ridge; width: 180px; height: 180px;">
+
+                        <img src="~/Images/BITBOOK_DEFAULT_PIC.png" style="height: 178px;width: 178px" />
+                    </div>
+                }
+
+            </td>
+            <td>
+                &nbsp; &nbsp;
+                @if (item.UserName != null)
+                {
+                    @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new { id = item.UserId }, null)
+                    <br />
+                    <br />
+                }
+                @if (item.UserName == null && item.UserId != CurrentId)
+                {
+                    @Html.ActionLink(User.Identity.GetUserName(), "BrowseProfile", "profile", new { id = item.UserId }, null)
+                    <br />
+                    <br />
+                }
+
+                <div style="margin-left: 10px; ">
+                    @using (@Html.BeginForm("Create", "Friend"))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="FriendId" name="FriendId" value="@item.UserId" />
+                        <input type="button" class="btn btn-success" readonly="readonly" value="Already Friend" />
+                    }
+                </div>
+            </td>
+
+        </tr>
+    </table>
+
+    <br />
+
+}
+
+

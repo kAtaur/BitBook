@@ -1,0 +1,70 @@
+﻿@using BitBookMVCApp.Models
+@using Microsoft.AspNet.Identity
+@model dynamic
+@{
+    ViewBag.Title = "ViewFriendRequest";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<h2>Friend Request</h2>
+
+
+@foreach (SearchFriend item in Model.friendList)
+{
+    <table>
+
+        <tr>
+            <td>
+                @if (@item.ProfilePhoto != null)
+                {
+                    <img src="@Url.Content(@item.ProfilePhoto)" alt="" style="height: 180px; width: 180px; border: 1px solid" />
+                }
+
+                @if (@item.ProfilePhoto == null)
+                {
+                    <div style="border-style: ridge; width: 180px; height: 180px;">
+
+                    </div>
+                }
+
+            </td>
+            <td>
+                &nbsp; &nbsp;
+                @if (item.UserName != null)
+                {
+                    @Html.ActionLink(@item.UserName, "BrowseProfile", "Profile", new { id = @item.UserId }, null)
+                }
+                @if (item.UserName == null)
+                {
+                    @Html.ActionLink(User.Identity.GetUserName(), "BrowseProfile", "Profile", new { id = @item.UserId }, null)
+                }
+
+                <br />
+                &nbsp; &nbsp;
+                <div class="control-label">
+                    @using (@Html.BeginForm("AccreptFriendRequest", "Friend"))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="FriendId" name="FriendId" value="@item.UserId" />
+                        <input type="submit" class="btn btn-success" value="Accept" style="margin-left: 10px" />
+                    }
+                </div>
+                <br />
+                @using (@Html.BeginForm("RejectFriendRequest", "Friend"))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="FriendId" name="FriendId" value="@item.UserId" />
+                    <input type="submit" class="btn btn-danger" value="Reject" style="margin-left: 10px" />
+                }
+
+            </td>
+
+        </tr>
+
+
+    </table>
+
+    <br />
+
+}
+

@@ -1,0 +1,65 @@
+﻿@model BitBookMVCApp.Models.Post
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+
+    string msg = ViewBag.msg;
+    
+}
+
+@using (Html.BeginForm("Create", "Post", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <section>
+
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Create New Post</h4>
+            <hr />
+            @Html.ValidationSummary(true)
+
+          
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.TextPost, new {@class = "control-label col-md-2"})*@
+                @Html.Label("Text ", new { @class = "control-label col-md-2" })
+                 <div class="col-md-10">
+                    @Html.TextArea("TextPost")
+                    @Html.ValidationMessageFor(model => model.TextPost)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.ImgPost, new { @class = "control-label col-md-2" })*@
+
+                @Html.Label("Image ", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.TextBox("ImgPost")*@
+
+                    <input type="file" name="file" id="file" accept="image/*" />
+
+                    @Html.ValidationMessageFor(model => model.ImgPost)
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Post" class="btn btn-success"/>
+                    <br />
+                    <br />
+                    <label style="color:red">@msg</label>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

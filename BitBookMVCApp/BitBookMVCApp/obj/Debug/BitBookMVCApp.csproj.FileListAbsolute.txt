@@ -1,0 +1,499 @@
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\ApplicationInsights.config
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\csc.exe
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\vbc.exe
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll.config
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.pdb
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Owin.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\WebGrease.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.pdb
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csprojResolveAssemblyReference.cache
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.dll
+C:\Users\RKP\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.pdb
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\ApplicationInsights.config
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\csc.exe
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Collections.Immutable.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\vbc.exe
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe.config
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll.config
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.pdb
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.XmlTransform.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\NuGet.Core.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Owin.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\WebGrease.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.pdb
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csprojResolveAssemblyReference.cache
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.InitialCreate.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.post.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend1.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.like.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_photo.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_name.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.coverPhoto.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotication.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.RequestNotification.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.ContentNotication.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.addFID_ContentNotication.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UserName.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profilePhoto.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.searchFriend.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.FriendStatus.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csproj.GenerateResource.Cache
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.pdb
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\ApplicationInsights.config
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\csc.exe
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\vbc.exe
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll.config
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.pdb
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.XmlTransform.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\NuGet.Core.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Owin.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\WebGrease.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csprojResolveAssemblyReference.cache
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.InitialCreate.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.post.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend1.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.like.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_photo.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_name.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.coverPhoto.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotication.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.RequestNotification.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.ContentNotication.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.addFID_ContentNotication.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UserName.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profilePhoto.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.searchFriend.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.FriendStatus.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csproj.GenerateResource.Cache
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.dll
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.pdb
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\ApplicationInsights.config
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\csc.exe
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Collections.Immutable.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\vbc.exe
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe.config
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll.config
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.pdb
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Agent.Intercept.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.Infrastructure.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.XmlTransform.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\NuGet.Core.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Owin.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\WebGrease.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.pdb
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.InitialCreate.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.post.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend1.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.like.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_photo.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_name.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.coverPhoto.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotication.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.RequestNotification.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.ContentNotication.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.addFID_ContentNotication.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UserName.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profilePhoto.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.searchFriend.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.FriendStatus.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotificationTable.resources
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csproj.GenerateResource.Cache
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.dll
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.pdb
+E:\1. Sanowar\PF\BdJobs\Project 2 - BitBook\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csprojResolveAssemblyReference.cache
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\ApplicationInsights.config
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\csc.exe
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Collections.Immutable.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\vbc.exe
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\roslyn\VBCSCompiler.exe.config
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll.config
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\BitBookMVCApp.pdb
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Web.XmlTransform.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\NuGet.Core.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Owin.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\WebGrease.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.Web.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AI.WindowsServer.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.ApplicationInsights.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Helpers.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Mvc.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Optimization.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.Razor.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Deployment.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\System.Web.WebPages.Razor.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Antlr3.Runtime.pdb
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Newtonsoft.Json.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\EntityFramework.SqlServer.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.InitialCreate.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.post.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.friend1.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.like.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_photo.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profile_name.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.coverPhoto.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotication.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.RequestNotification.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.ContentNotication.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.addFID_ContentNotication.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UserName.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.profilePhoto.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.searchFriend.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.FriendStatus.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotificationTable.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.AddModelPostComment.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.Model1.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.Model2.resources
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csproj.GenerateResource.Cache
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.dll
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.pdb
+E:\Sanowar 34\Tutorials\Tutorial DotNet\BDJOBS - DotNet\Project 2 - BitBook\Final\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.csprojResolveAssemblyReference.cache
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.UpdateNotificationTable.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.AddModelPostComment.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.Model1.resources
+C:\Users\PC\Downloads\BitBookMVCApp\BitBookMVCApp\obj\Debug\BitBookMVCApp.Migrations.Model2.resources

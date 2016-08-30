@@ -1,0 +1,59 @@
+﻿@using BitBookMVCApp.Models
+@using Microsoft.AspNet.Identity
+@model dynamic
+@*@model IEnumerable<BitBookMVCApp.Models.SearchFriend>*@
+
+@{
+    ViewBag.Title = "ViewFriendList";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+<h2> Friend List</h2>
+
+@foreach (SearchFriend item in Model.friendList)
+{
+    <table>
+
+        <tr>
+            <td>
+                @if (@item.ProfilePhoto != null)
+                {
+                    <img src="@Url.Content(@item.ProfilePhoto)" alt="" style="height: 180px; width: 180px; border: 1px solid" />
+                }
+
+                @if (@item.ProfilePhoto == null)
+                {
+                    <div style="border-style: ridge; width: 180px; height: 180px;">
+
+                    </div>
+                }
+
+            </td>
+            <td>
+                &nbsp; &nbsp;
+                @if (item.UserName != null)
+                {
+                    @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new { id = item.UserId }, null)
+                }
+                @if (item.UserName == null)
+                {
+                    @Html.ActionLink(User.Identity.GetUserName(), "BrowseProfile", "profile", new { id = item.UserId }, null)
+                }
+                
+                <br />
+                <br />
+                &nbsp; &nbsp;
+                <div class="control-label">
+                  
+                </div>
+
+
+            </td>
+        </tr>
+
+
+    </table>
+
+    <br />
+
+}

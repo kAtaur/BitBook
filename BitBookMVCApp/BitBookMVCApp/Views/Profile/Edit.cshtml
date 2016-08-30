@@ -1,0 +1,128 @@
+﻿@using Microsoft.AspNet.Identity
+@model BitBookMVCApp.Models.Profile
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+
+    string email = User.Identity.GetUserName();
+    string name = ViewBag.name;
+}
+
+<br />
+<h2>Edit Basic Information</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.ProfileId)
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.HiddenFor(model => model.UserId, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                @Html.ValidationMessageFor(model => model.UserId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Gender, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (Model.Gender == "Male")
+                {
+                    <div>
+                        <input type="radio" id="Gender" name="Gender" value="Male" checked="checked"> Male &nbsp;&nbsp;
+                        <input type="radio" id="Gender" name="Gender" value="Female"> Female &nbsp;&nbsp;
+                    </div>
+                }
+
+                @if (Model.Gender == "Female")
+                {
+                    <div>
+                        <input type="radio" id="Gender" name="Gender" value="Male"> Male &nbsp;&nbsp;
+                        <input type="radio" id="Gender" name="Gender" value="Female" checked="checked"> Female &nbsp;&nbsp;
+                    </div>
+                }
+
+                @if (Model.Gender == null)
+                {
+                     <div>
+                        <input type="radio" id="Gender" name="Gender" value="Male"> Male &nbsp;&nbsp;
+                        <input type="radio" id="Gender" name="Gender" value="Female"> Female &nbsp;&nbsp;
+                    </div>
+                }
+
+                @Html.ValidationMessageFor(model => model.Gender)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Contact, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Contact, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Contact)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.City, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.City)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Country, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Country)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Area Of Interest", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AreaOfInterest, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.AreaOfInterest)
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to Profile", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

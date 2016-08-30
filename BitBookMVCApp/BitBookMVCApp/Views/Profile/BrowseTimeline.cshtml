@@ -1,0 +1,149 @@
+﻿@using BitBookMVCApp.Models
+@model dynamic
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+
+    string currentUser = ViewBag.currentUser;
+    string msg = ViewBag.msg;
+}
+
+<br />
+<table style="width: 700px">
+    @foreach (PostLikeComment item in Model.PostWithLike)
+    {
+        <tr>
+            <th>
+
+            </th>
+            <th style="width: 120px;">
+                @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new { id = item.UserId }, null)
+
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.PostDate)
+
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.TextPost)
+                <br />
+                @if (item.ImgPost != null)
+                {
+                    <img src="@Url.Content(item.ImgPost)" alt="" style="height: 250px; width: 300px" />
+                }
+
+            <td></td>
+
+            <td>
+
+                @if (currentUser == item.UserId)
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.PostId })
+                }
+
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+
+                @if (item.LikeStatus == 1)
+                {
+                    <button data-id="@item.PostId" type="button" class="likeButton btn btn-primary btn-xs" style="background-color: #5979D2; cursor: pointer; overflow: hidden; width: 45px" value="">Liked</button>
+                    <a href="/Like/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@item.TotalLikeCount</label></a>
+                }
+
+                @if (item.LikeStatus != 1)
+                {
+                    <input type="button" data-id="@item.PostId" class="likeButton btn btn-primary btn-xs" style="background-color: #5979D2; width: 45px; " value="like" />
+                    <a href="/Like/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@item.TotalLikeCount</label></a>
+
+                }
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+
+            <td style="background-color: #F5F5F5">
+                @foreach (ViewPostComment item1 in Model.PostWithComment)
+                {
+                    if (@item1.PostId == @item.PostId)
+                    {
+                        foreach (var v in item1.Ucomment)
+                        {
+                            @Html.ActionLink(v.UserName, "BrowseProfile", "Profile", new { id = v.CommentatorId }, null)
+                            <label style="font-weight: normal">&nbsp;@v.Comment</label>
+                            <br />
+                        }
+                    }
+                }
+
+                @using (@Html.BeginForm("CreateCommentFromTimeline", "like", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="postId" name="postId" value="@item.PostId" />
+                    <textarea id="comment" name="comment"></textarea>
+                    <input type="submit" value="Comment" />
+                }
+
+            </td>
+
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <td><hr /></td>
+        </tr>
+    }
+
+</table>
+
+@section scripts{
+
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>*@
+    <script src="~/Scripts/jquery-2.2.3.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.likeButton').click(function () {
+                $(this).val("Liked");
+                var value = $(this).attr("data-id");
+                $.ajax
+                ({
+                    type: 'POST',
+                    url: '@Url.Action("Create", "Like")',
+                    //data: "{'postIdString':'" + JSON.stringify(obj) + "'}",
+                    data: "{'postIdString':'" + value + "'}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data1) {
+                        document.getElementById(value).innerHTML = data1;
+
+                    }
+                });
+            });
+        })
+
+    </script>
+}

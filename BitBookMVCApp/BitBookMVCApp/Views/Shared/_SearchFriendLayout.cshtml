@@ -1,0 +1,102 @@
+﻿@using BitBookMVCApp.Models
+@model dynamic
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    <link href="@Url.Content("~/Content/SearchFriendLayout.css")" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#searchFriend").autocomplete({
+            source: '@Url.Action("GetMP","Profile")'
+        });
+
+    })
+    </script>
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #3F5C9A; color: white;height: 50px">
+        <div class="headNavBar">
+            <div class="logoName">
+                <label class=""><b>BitBook</b></label>
+            </div>
+
+            <div class="searchBox">
+
+                @using (@Html.BeginForm("SearchFreind", "Profile"))
+                {
+                    <input type="text" id="searchFriend" name="searchFriend" placeholder="Search friend...." style="color: black" />
+                    <input type="submit" value="Search" style="color: black"/>
+                }
+                
+            </div>
+
+            <div class="profileNotification">
+                <div class="profile">
+
+                    <label id="profile">@Html.ActionLink("Profile", "Index", "Profile")</label> &nbsp; | &nbsp;
+                    <label id="profileHome">@Html.ActionLink("Home", "Index", "Post")</label>
+
+                </div>
+                <div class="notification">
+                    <a href="/profile/ViewFriendRequest">
+                        <img id="friendRequest" class="friendRequest" src="~/Images/FriendRequest.jpg" /> &nbsp;&nbsp;
+                    </a>
+                    <a href="">
+                        <img id="notification" class="friendRequest" src="~/Images/NotificationLogo.jpg"/>
+                    </a>
+
+                </div>
+            </div>
+
+            
+            <div class="logOff">
+                @Html.Partial("_LoginPartial")
+            </div>
+
+        </div>
+
+    </div>
+
+<div class="container body-content">
+
+    <div class="renderBody">
+
+        @RenderBody()
+
+    </div>
+
+    <div class="footer">
+        <hr />
+        <footer>
+            <p>
+                &copy; @DateTime.Now.Year - Developed by <b>Simple Coders</b>
+            </p>
+        </footer>
+    </div>
+</div>
+    
+
+    
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

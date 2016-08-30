@@ -1,0 +1,77 @@
+﻿body {
+
+
+   
+}
+.renderBody {
+     margin: 20px 0px 20px 200px !important;
+}
+
+.headNavBar {
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+}
+a {
+    color: white;
+}
+
+.logoName {
+    height: 50px;
+    width: 15%;
+    float: left;
+}
+
+
+
+.searchBox {
+    height: 50px;
+    width: 30%;
+    float: left;
+}
+
+.profileNotification {
+    height: 50px;
+    width: 30%;
+    float: left;
+}
+
+                .profile {
+                    height: 50px;
+                    width: 50%;
+                    float: left;
+                }
+
+
+                .notification {
+                    height: 50px;
+                    width: 30%;
+                    float: left;
+                }
+
+                .friendRequest {
+                    height: 30px;
+                    float: left;
+                }
+
+.logOff {
+    height: 50px;
+    width: 25%;
+    float: left;
+    
+}
+
+
+
+.renderBody {
+    clear: both;
+    margin: 10px;
+}
+
+.footer {
+    
+    clear: both;
+    text-align: center;
+   
+}

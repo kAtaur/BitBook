@@ -1,0 +1,196 @@
+﻿@using BitBookMVCApp.Models
+@using Microsoft.AspNet.Identity
+@model dynamic
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+
+    string currentUser = ViewBag.currentUser;
+    string msg = ViewBag.msg;
+}
+
+@* ------------- creat a post ------------*@
+
+@using (Html.BeginForm("Create", "Post", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <section>
+
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                @Html.Label("Text ", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <textarea id="TextPost" name="TextPost" class="form-control" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Image ", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input type="file" name="file" id="file" accept="image/*" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Post" class="btn btn-success" />
+                    <br />
+                    <label style="color:red">@ViewBag.msg</label>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+@* ------------- creat post end ------------*@
+
+
+
+@*<p>
+        @Html.ActionLink("Create New Post", "Create")
+    </p>*@
+
+<hr />
+<table>
+    @foreach (PostLikeComment item in Model.PostWithLike)
+    {
+        <tr>
+            <th>
+
+            </th>
+            <th style="width: 120px;">
+                @if (item.UserName!=null)
+                {
+                     @Html.ActionLink(item.UserName, "BrowseProfile", "profile", new {id = item.UserId}, null)
+                }
+                @if (item.UserName == null)
+                {
+                    @Html.ActionLink(User.Identity.GetUserName(), "BrowseProfile", "profile", new { id = item.UserId }, null)
+                }
+               
+
+            </th>
+            <th style="font-weight: normal">
+                @Html.DisplayFor(modelItem => item.PostDate)
+
+            </th>
+            <th>
+            </th>
+            <th>
+                @if (currentUser == item.UserId)
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.PostId })
+                }
+            </th>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.TextPost)
+                <br />
+                @if (item.ImgPost != null)
+                {
+                    <img src="@Url.Content(item.ImgPost)" alt="" style="height: 250px; width: 300px" />
+                }
+
+            <td></td>
+
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+
+                @if (item.LikeStatus == 1)
+                {
+                    <button data-id="@item.PostId" type="button" class="likeButton btn btn-primary btn-xs" style="background-color: #5979D2; cursor: pointer; overflow: hidden; width: 45px" value="">Liked</button>
+                    <a href="/Like/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@item.TotalLikeCount</label></a>
+                }
+
+                @if (item.LikeStatus != 1)
+                {
+                    <input type="button" data-id="@item.PostId" class="likeButton btn btn-primary btn-xs" style="background-color: #5979D2; width: 45px; " value="like" />
+                    <a href="/Like/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@item.TotalLikeCount</label></a>
+
+                }
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+
+            <td style="background-color: #F5F5F5">
+                @foreach (ViewPostComment item1 in Model.PostWithComment)
+                {
+                    if (@item1.PostId == @item.PostId)
+                    {
+                        foreach (var v in item1.Ucomment)
+                        {
+                            @Html.ActionLink(v.UserName, "BrowseProfile", "Profile", new { id = v.CommentatorId }, null)
+                            <label style="font-weight: normal">&nbsp;@v.Comment</label>
+                            <br />
+                        }
+                    }
+                }
+
+                @using (@Html.BeginForm("createcomment", "like", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="postId" name="postId" value="@item.PostId" />
+                    <textarea id="comment" name="comment"></textarea>
+                    <input type="submit" value="Comment" />
+                }
+
+            </td>
+
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <td><hr /></td>
+        </tr>
+    }
+
+</table>
+
+@section scripts{
+
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>*@
+    <script src="~/Scripts/jquery-2.2.3.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.likeButton').click(function () {
+                $(this).val("Liked");
+                var value = $(this).attr("data-id");
+                $.ajax
+                ({
+                    type: 'POST',
+                    url: '@Url.Action("Create", "Like")',
+                    //data: "{'postIdString':'" + JSON.stringify(obj) + "'}",
+                    data: "{'postIdString':'" + value + "'}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data1) {
+                        document.getElementById(value).innerHTML = data1;
+
+                    }
+                });
+            });
+        })
+
+    </script>
+}

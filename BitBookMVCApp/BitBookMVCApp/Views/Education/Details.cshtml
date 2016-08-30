@@ -1,0 +1,53 @@
+﻿@using Microsoft.AspNet.Identity
+@model BitBookMVCApp.Models.Education
+
+@{
+    ViewBag.Title = "Details";
+    string email = User.Identity.GetUserName();
+    string name = ViewBag.name; 
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Education</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EduTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EduTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EduInstitute)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EduInstitute)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EduYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EduYear)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EducationId }) |
+    @Html.ActionLink("Back to Profile", "Index", "Profile")
+</p>

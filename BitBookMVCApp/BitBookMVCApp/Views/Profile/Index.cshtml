@@ -1,0 +1,129 @@
+﻿@using BitBookMVCApp.Models
+@model dynamic
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+<br />
+<fieldset>
+    <legend>Basic Information </legend>
+
+    @*@if (Model.Profile == null)
+    {
+        @Html.ActionLink("Add Profile", "Create", "Profile")
+    }*@
+
+ 
+    <table class="table table-bordered" style="width: 749px">
+
+        
+        @foreach (Profile p in Model.Profile)
+        {
+            if (@p.ProfileId == 0)
+            {
+                @Html.ActionLink("Add Profile", "Create", "Profile")
+            }
+            else
+            {
+
+                @Html.ActionLink("Edit", "Edit", "Profile", new {id = p.ProfileId}, null)
+                <tr>
+                    <th>Name </th>
+                    <td>@p.Name</td>
+                </tr>
+                <tr>
+                    <th>Email </th>
+                    <td>@p.Email</td>
+                </tr>
+                <tr>
+                    <th>Contact </th>
+                    <td>@p.Contact</td>
+                </tr>
+                <tr>
+                    <th>Gender </th>
+                    <td>@p.Gender</td>
+                </tr>
+                <tr>
+                    <th>City </th>
+                    <td>@p.City</td>
+                </tr>
+                <tr>
+                    <th>Country </th>
+                    <td>@p.Country</td>
+                </tr>
+
+                <tr>
+                    <th>AreaOfInterest</th>
+                    <td>@p.AreaOfInterest</td>
+                </tr>
+            }
+
+        }
+
+
+    </table>
+
+</fieldset>
+
+
+
+<fieldset>
+    <legend>Education  </legend>
+    @Html.ActionLink("Add Education", "Create", "Education")
+    <table class="table " style="width: 750px">
+        <tr>
+            <th>Title </th>
+            <th>Institute </th>
+            <th>Passing Year </th> 
+            <th></th>
+            <th></th> 
+
+        </tr>
+        @foreach (Education e in Model.Education)
+        {
+
+            <tr>
+                <td>@e.EduTitle</td>
+                <td>@e.EduInstitute</td>
+                <td>@e.EduYear</td>
+                <td>@Html.ActionLink("Edit", "Edit", "Education", new { id = e.EducationId }, null)</td>
+                <td>@Html.ActionLink("Delete", "Delete", "Education", new { id = e.EducationId }, null)</td>
+            </tr>
+
+        }
+    </table>
+</fieldset>
+
+
+<fieldset>
+    <legend>Experience  </legend>
+    @Html.ActionLink("Add Experience", "Create", "Experience")
+
+    <table class="table " style=" width: 750px">
+        <tr>
+            <th>Designation</th>
+            <th>Organization </th>
+            <th>Service Year</th>
+            <th></th>
+            <th></th>
+
+        </tr>
+        @foreach (Experience ex in Model.Experience)
+        {
+
+            <tr>
+                <td>@ex.ExpDesignation</td>
+                <td>@ex.ExpCompany</td>
+                <td>@ex.ExpYear</td>
+                <td>@Html.ActionLink("Edit", "Edit", "Experience", new { id = ex.ExperienceId }, null)</td>
+                <td>@Html.ActionLink("Delete", "Delete", "Experience", new { id = ex.ExperienceId }, null)</td>
+            </tr>
+
+        }
+    </table>
+
+    
+
+</fieldset>
+
+
